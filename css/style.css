@@ -1,0 +1,106 @@
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2{
+    font-size: 16px;
+}
+
+p, li{
+    font-size: 14px;
+}
+
+nav {
+    background-color: lightgray;
+}
+
+.nav{
+    display: inline-block;
+    background-color: darkslategray;
+    padding: 20px 30px;
+    color: white;
+}
+
+.wrapper{
+    height: 500px;
+}
+
+.left{
+    width: 29%;
+    float: left;
+    background-color: lightblue;
+}
+
+.right{
+    width: 70%;
+    float: right;
+    background-color: burlywood;
+}
+
+.navItem{
+    background-color: darkgrey;
+    display: inline-block;
+    padding: 20px;
+    width: 60px;
+    text-align: center;
+}
+
+#profile{
+    height: 120px;
+    text-align: center;
+    padding: 20px;
+    line-height: 0;
+    border-radius: 50%;
+}
+
+#profile img{
+    height: 80px;
+    border-radius: 50%;
+}
+
+#stats{
+    height: 300px;
+    padding: 10px 30px;
+    font-weight: 700;
+}
+
+#statsList{
+    list-style: none;
+    line-height: 30px;
+    padding-left: 0;
+    font-weight: 500;
+}
+
+#hero {
+    margin: 20px;
+    max-height: 280px;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+#hero img{
+    float: left;
+    display: inline;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#gallery{
+    margin: 20px;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.petPhoto{
+    display: inline-block;
+    width: 30%;
+    margin: 5px;
+}
+
+.petPhoto img{
+    display: block;
+    width: 100%;
+}
+
